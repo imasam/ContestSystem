@@ -2249,6 +2249,11 @@
 			quid       	"59E05BF80145")))
 	    (object Class "赛事表"
 		quid       	"59DF56CF007E"
+		superclasses 	(list inheritance_relationship_list
+		    (object Inheritance_Relationship
+			quid       	"59E9B31200DD"
+			supplier   	"Logical View::队伍工作人员"
+			quidu      	"59DF574700CB"))
 		class_attributes 	(list class_attribute_list
 		    (object ClassAttribute "项目名"
 			quid       	"59E05C6C0065")
@@ -2441,7 +2446,7 @@
 			ShowCompartmentStereotypes 	TRUE
 			IncludeAttribute 	TRUE
 			IncludeOperation 	TRUE
-			location   	(448, 720)
+			location   	(672, 1168)
 			font       	(object Font
 			    size       	9
 			    face       	"Arial"
@@ -2453,7 +2458,7 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@91
-			    location   	(347, 620)
+			    location   	(571, 1068)
 			    fill_color 	13434879
 			    nlines     	1
 			    max_width  	202
@@ -2465,7 +2470,7 @@
 			quidu      	"59E84D270099"
 			compartment 	(object Compartment
 			    Parent_View 	@91
-			    location   	(347, 678)
+			    location   	(571, 1126)
 			    font       	(object Font
 				size       	9
 				face       	"Arial"
@@ -2489,7 +2494,7 @@
 			ShowCompartmentStereotypes 	TRUE
 			IncludeAttribute 	TRUE
 			IncludeOperation 	TRUE
-			location   	(352, 1168)
+			location   	(896, 288)
 			font       	(object Font
 			    size       	9
 			    face       	"Arial"
@@ -2501,7 +2506,7 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@92
-			    location   	(232, 974)
+			    location   	(776, 94)
 			    fill_color 	13434879
 			    nlines     	1
 			    max_width  	240
@@ -2513,7 +2518,7 @@
 			quidu      	"59DF5762038A"
 			compartment 	(object Compartment
 			    Parent_View 	@92
-			    location   	(232, 1032)
+			    location   	(776, 152)
 			    font       	(object Font
 				size       	9
 				face       	"Arial"
@@ -2537,7 +2542,7 @@
 			ShowCompartmentStereotypes 	TRUE
 			IncludeAttribute 	TRUE
 			IncludeOperation 	TRUE
-			location   	(672, 1456)
+			location   	(352, 736)
 			font       	(object Font
 			    size       	9
 			    face       	"Arial"
@@ -2549,7 +2554,7 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@93
-			    location   	(589, 1333)
+			    location   	(269, 613)
 			    fill_color 	13434879
 			    nlines     	1
 			    max_width  	166
@@ -2561,7 +2566,7 @@
 			quidu      	"59DF1DAF03AC"
 			compartment 	(object Compartment
 			    Parent_View 	@93
-			    location   	(589, 1391)
+			    location   	(269, 671)
 			    font       	(object Font
 				size       	9
 				face       	"Arial"
@@ -2633,7 +2638,7 @@
 			ShowCompartmentStereotypes 	TRUE
 			IncludeAttribute 	TRUE
 			IncludeOperation 	TRUE
-			location   	(1104, 784)
+			location   	(368, 1168)
 			font       	(object Font
 			    size       	9
 			    face       	"Arial"
@@ -2645,7 +2650,7 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@95
-			    location   	(1002, 708)
+			    location   	(266, 1092)
 			    fill_color 	13434879
 			    nlines     	1
 			    max_width  	204
@@ -2657,7 +2662,7 @@
 			quidu      	"59E84CF501CC"
 			compartment 	(object Compartment
 			    Parent_View 	@95
-			    location   	(1002, 766)
+			    location   	(266, 1150)
 			    font       	(object Font
 				size       	9
 				face       	"Arial"
@@ -2681,7 +2686,7 @@
 			ShowCompartmentStereotypes 	TRUE
 			IncludeAttribute 	TRUE
 			IncludeOperation 	TRUE
-			location   	(992, 1168)
+			location   	(1312, 1184)
 			font       	(object Font
 			    size       	9
 			    face       	"Arial"
@@ -2693,7 +2698,7 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@96
-			    location   	(863, 1045)
+			    location   	(1183, 1061)
 			    fill_color 	13434879
 			    nlines     	1
 			    max_width  	258
@@ -2705,7 +2710,7 @@
 			quidu      	"59DF57C80005"
 			compartment 	(object Compartment
 			    Parent_View 	@96
-			    location   	(863, 1103)
+			    location   	(1183, 1119)
 			    font       	(object Font
 				size       	9
 				face       	"Arial"
@@ -2729,7 +2734,7 @@
 			ShowCompartmentStereotypes 	TRUE
 			IncludeAttribute 	TRUE
 			IncludeOperation 	TRUE
-			location   	(2032, 576)
+			location   	(944, 1232)
 			font       	(object Font
 			    size       	9
 			    face       	"Arial"
@@ -2741,7 +2746,7 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@97
-			    location   	(1930, 382)
+			    location   	(842, 1038)
 			    fill_color 	13434879
 			    nlines     	1
 			    max_width  	204
@@ -2753,7 +2758,7 @@
 			quidu      	"59DF56CF007E"
 			compartment 	(object Compartment
 			    Parent_View 	@97
-			    location   	(1930, 440)
+			    location   	(842, 1096)
 			    font       	(object Font
 				size       	9
 				face       	"Arial"
@@ -2767,7 +2772,7 @@
 			    fill_color 	13434879
 			    anchor     	2
 			    nlines     	7
-			    max_width  	200
+			    max_width  	209
 			    justify    	1)
 			width      	222
 			height     	410
@@ -2777,7 +2782,7 @@
 			ShowCompartmentStereotypes 	TRUE
 			IncludeAttribute 	TRUE
 			IncludeOperation 	TRUE
-			location   	(1728, 880)
+			location   	(2288, 288)
 			font       	(object Font
 			    size       	9
 			    face       	"Arial"
@@ -2789,7 +2794,7 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@98
-			    location   	(1614, 780)
+			    location   	(2174, 188)
 			    fill_color 	13434879
 			    nlines     	1
 			    max_width  	228
@@ -2801,7 +2806,7 @@
 			quidu      	"59DF56FF034D"
 			compartment 	(object Compartment
 			    Parent_View 	@98
-			    location   	(1614, 838)
+			    location   	(2174, 246)
 			    font       	(object Font
 				size       	9
 				face       	"Arial"
@@ -2825,7 +2830,7 @@
 			ShowCompartmentStereotypes 	TRUE
 			IncludeAttribute 	TRUE
 			IncludeOperation 	TRUE
-			location   	(1648, 1456)
+			location   	(1760, 320)
 			font       	(object Font
 			    size       	9
 			    face       	"Arial"
@@ -2837,7 +2842,7 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@99
-			    location   	(1528, 1239)
+			    location   	(1640, 103)
 			    fill_color 	13434879
 			    nlines     	1
 			    max_width  	240
@@ -2849,7 +2854,7 @@
 			quidu      	"59DF573601FB"
 			compartment 	(object Compartment
 			    Parent_View 	@99
-			    location   	(1528, 1297)
+			    location   	(1640, 161)
 			    font       	(object Font
 				size       	9
 				face       	"Arial"
@@ -2873,7 +2878,7 @@
 			ShowCompartmentStereotypes 	TRUE
 			IncludeAttribute 	TRUE
 			IncludeOperation 	TRUE
-			location   	(2368, 1056)
+			location   	(1680, 1200)
 			font       	(object Font
 			    size       	9
 			    face       	"Arial"
@@ -2885,7 +2890,7 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@100
-			    location   	(2248, 933)
+			    location   	(1560, 1077)
 			    fill_color 	13434879
 			    nlines     	1
 			    max_width  	240
@@ -2897,7 +2902,7 @@
 			quidu      	"59DF585B0107"
 			compartment 	(object Compartment
 			    Parent_View 	@100
-			    location   	(2248, 991)
+			    location   	(1560, 1135)
 			    font       	(object Font
 				size       	9
 				face       	"Arial"
