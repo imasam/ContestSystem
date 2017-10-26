@@ -2242,11 +2242,14 @@
 		quid       	"59DF1DAF03AC"
 		class_attributes 	(list class_attribute_list
 		    (object ClassAttribute "队账号"
-			quid       	"59E05BB10391")
+			quid       	"59E05BB10391"
+			type       	"String")
 		    (object ClassAttribute "队名"
-			quid       	"59E05BBD0118")
+			quid       	"59E05BBD0118"
+			type       	"Single")
 		    (object ClassAttribute "密码"
-			quid       	"59E05BF80145")))
+			quid       	"59E05BF80145"
+			type       	"String")))
 	    (object Class "赛事表"
 		quid       	"59DF56CF007E"
 		superclasses 	(list inheritance_relationship_list
@@ -2255,124 +2258,154 @@
 			supplier   	"Logical View::队伍工作人员"
 			quidu      	"59DF574700CB"))
 		class_attributes 	(list class_attribute_list
-		    (object ClassAttribute "项目名"
-			quid       	"59E05C6C0065")
-		    (object ClassAttribute "性别"
-			quid       	"59E05C7202CD")
-		    (object ClassAttribute "组别"
-			quid       	"59E05C7B0223")
-		    (object ClassAttribute "成绩"
-			quid       	"59E05C89033C")
+		    (object ClassAttribute "项目编号"
+			quid       	"59E05C7202CD"
+			type       	"Byte")
 		    (object ClassAttribute "比赛编号"
-			quid       	"59E05C9A0095")
+			quid       	"59E05C9A0095"
+			type       	"Integer")
 		    (object ClassAttribute "比赛类型"
-			quid       	"59E847B8016A")))
+			quid       	"59E847B8016A"
+			type       	"String")
+		    (object ClassAttribute "比赛时间"
+			quid       	"59F1810A02A0"
+			type       	"Date")
+		    (object ClassAttribute "预决赛"
+			quid       	"59F18BD101E3"
+			type       	"Boolean")
+		    (object ClassAttribute "组号"
+			quid       	"59F192190076"
+			type       	"Integer")))
 	    (object Class "系统管理员"
 		quid       	"59DF56FF034D"
 		class_attributes 	(list class_attribute_list
 		    (object ClassAttribute "账号"
-			quid       	"59E05D070284")
+			quid       	"59E05D070284"
+			type       	"String")
 		    (object ClassAttribute "密码"
-			quid       	"59E05D0C02E3")))
+			quid       	"59E05D0C02E3"
+			type       	"String")))
 	    (object Class "运动员"
 		quid       	"59DF573601FB"
 		class_attributes 	(list class_attribute_list
 		    (object ClassAttribute "运动员编号"
-			quid       	"59E05CAA02A9")
+			quid       	"59E05CAA02A9"
+			type       	"Integer")
 		    (object ClassAttribute "性别"
-			quid       	"59E05CB90289")
+			quid       	"59E05CB90289"
+			type       	"Byte")
 		    (object ClassAttribute "身份证号"
-			quid       	"59E05CBD013A")
+			quid       	"59E05CBD013A"
+			type       	"String")
 		    (object ClassAttribute "姓名"
-			quid       	"59E05CD1023E")
+			quid       	"59E05CD1023E"
+			type       	"String")
 		    (object ClassAttribute "年龄范围"
-			quid       	"59E05CDE01E6")
-		    (object ClassAttribute "组别"
-			quid       	"59E05CE30137")
+			quid       	"59E05CDE01E6"
+			type       	"年龄组"
+			quidu      	"59E84CF501CC")
 		    (object ClassAttribute "文化成绩"
-			quid       	"59E05CEB01C0")))
+			quid       	"59E05CEB01C0"
+			type       	"Integer")))
 	    (object Class "队伍工作人员"
 		quid       	"59DF574700CB"
 		class_attributes 	(list class_attribute_list
 		    (object ClassAttribute "姓名"
-			quid       	"59E05C2B02E0")
+			quid       	"59E05C2B02E0"
+			type       	"String")
 		    (object ClassAttribute "身份证"
-			quid       	"59E05C310211")
+			quid       	"59E05C310211"
+			type       	"String")
 		    (object ClassAttribute "电话"
-			quid       	"59E05C3602DF")
+			quid       	"59E05C3602DF"
+			type       	"String")
 		    (object ClassAttribute "性别"
-			quid       	"59E05C3A01FF")
+			quid       	"59E05C3A01FF"
+			type       	"Byte")
 		    (object ClassAttribute "职务"
-			quid       	"59E05C4000CD")
-		    (object ClassAttribute "所属代表队"
-			quid       	"59E5E4D302C3")))
+			quid       	"59E05C4000CD"
+			type       	"String")
+		    (object ClassAttribute "队名"
+			quid       	"59E5E4D302C3"
+			type       	"String")))
 	    (object Class "裁判员"
 		quid       	"59DF5762038A"
-		operations 	(list Operations
-		    (object Operation "打分"
-			quid       	"59E8546E0038"
-			concurrency 	"Sequential"
-			opExportControl 	"Public"
-			uid        	0))
 		class_attributes 	(list class_attribute_list
 		    (object ClassAttribute "身份证"
-			quid       	"59E05B750387")
+			quid       	"59E05B750387"
+			type       	"Single")
 		    (object ClassAttribute "电话"
-			quid       	"59E05B820363")
-		    (object ClassAttribute "职务"
-			quid       	"59E05B9A0323")
+			quid       	"59E05B820363"
+			type       	"String")
 		    (object ClassAttribute "姓名"
-			quid       	"59E5E4B1009F")
-		    (object ClassAttribute "所属代表队"
-			quid       	"59E5E5000370")))
-	    (object Class "赛事编排结果"
+			quid       	"59E5E4B1009F"
+			type       	"Single")
+		    (object ClassAttribute "队名"
+			quid       	"59E5E5000370"
+			type       	"String")
+		    (object ClassAttribute "账号"
+			quid       	"59F18A2401CB"
+			type       	"String")
+		    (object ClassAttribute "密码"
+			quid       	"59F18A2A00E3"
+			type       	"String")))
+	    (object Class "出场顺序"
 		quid       	"59DF57C80005"
 		class_attributes 	(list class_attribute_list
-		    (object ClassAttribute "比赛时间"
-			quid       	"59E06355011F")
 		    (object ClassAttribute "比赛编号"
-			quid       	"59E0636C00C2")
+			quid       	"59E0636C00C2"
+			type       	"Integer")
 		    (object ClassAttribute "运动员编号"
-			quid       	"59E5E5790157")))
+			quid       	"59E5E5790157"
+			type       	"Integer")
+		    (object ClassAttribute "出场编号"
+			quid       	"59F182D70382"
+			type       	"Integer")))
 	    (object Class "比赛控制人员"
 		quid       	"59DF580F020F"
-		operations 	(list Operations
-		    (object Operation "分配裁判"
-			quid       	"59E8505602ED"
-			concurrency 	"Sequential"
-			opExportControl 	"Public"
-			uid        	0)
-		    (object Operation "打分命令"
-			quid       	"59E850FD0111"
-			concurrency 	"Sequential"
-			opExportControl 	"Public"
-			uid        	0))
 		class_attributes 	(list class_attribute_list
 		    (object ClassAttribute "账号"
-			quid       	"59E05D2F02ED")
+			quid       	"59E05D2F02ED"
+			type       	"String")
 		    (object ClassAttribute "密码"
-			quid       	"59E05D330192")))
-	    (object Class "总成绩"
+			quid       	"59E05D330192"
+			type       	"String")))
+	    (object Class "成绩"
 		quid       	"59DF585B0107"
 		class_attributes 	(list class_attribute_list
 		    (object ClassAttribute "运动员编号"
-			quid       	"59E05E150109")
-		    (object ClassAttribute "比赛编号"
-			quid       	"59E05E1B0385")
+			quid       	"59E05E150109"
+			type       	"Integer")
+		    (object ClassAttribute "项目编号"
+			quid       	"59E05E1B0385"
+			type       	"Integer")
 		    (object ClassAttribute "成绩"
-			quid       	"59E05E7702C3")))
+			quid       	"59E05E7702C3"
+			type       	"Integer")
+		    (object ClassAttribute "打分类型"
+			quid       	"59F1913F0125"
+			type       	"Boolean")
+		    (object ClassAttribute "裁判账号"
+			quid       	"59F19160007C"
+			type       	"String")))
 	    (object Class "年龄组"
 		quid       	"59E84CF501CC"
 		class_attributes 	(list class_attribute_list
-		    (object ClassAttribute "年龄范围"
-			quid       	"59E84D060229")))
+		    (object ClassAttribute "年龄"
+			quid       	"59E84D060229"
+			type       	"Integer")))
 	    (object Class "比赛项目"
 		quid       	"59E84D270099"
 		class_attributes 	(list class_attribute_list
-		    (object ClassAttribute "项目名称"
-			quid       	"59E84D5900E0")
-		    (object ClassAttribute "性别"
-			quid       	"59E84D7602B2"))))
+		    (object ClassAttribute "项目名"
+			quid       	"59E84D5900E0"
+			type       	"String")
+		    (object ClassAttribute "男女组"
+			quid       	"59E84D7602B2"
+			type       	"Byte")
+		    (object ClassAttribute "项目编号"
+			quid       	"59F191C5004F"
+			type       	"Integer"))))
 	logical_presentations 	(list unit_reference_list
 	    (object ClassDiagram "Main"
 		quid       	"3512226B0028"
@@ -2398,7 +2431,7 @@
 			ShowCompartmentStereotypes 	TRUE
 			IncludeAttribute 	TRUE
 			IncludeOperation 	TRUE
-			location   	(400, 288)
+			location   	(336, 240)
 			font       	(object Font
 			    size       	9
 			    face       	"Arial"
@@ -2410,7 +2443,7 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@90
-			    location   	(271, 141)
+			    location   	(207, 140)
 			    fill_color 	13434879
 			    nlines     	1
 			    max_width  	258
@@ -2422,55 +2455,7 @@
 			quidu      	"59DF580F020F"
 			compartment 	(object Compartment
 			    Parent_View 	@90
-			    location   	(271, 199)
-			    font       	(object Font
-				size       	9
-				face       	"Arial"
-				bold       	FALSE
-				italics    	FALSE
-				underline  	FALSE
-				strike     	FALSE
-				color      	0
-				default_color 	TRUE)
-			    icon_style 	"Icon"
-			    fill_color 	13434879
-			    anchor     	2
-			    nlines     	5
-			    max_width  	225
-			    justify    	1)
-			width      	276
-			height     	316
-			annotation 	8
-			autoResize 	TRUE)
-		    (object ClassView "Class" "Logical View::比赛项目" @91
-			ShowCompartmentStereotypes 	TRUE
-			IncludeAttribute 	TRUE
-			IncludeOperation 	TRUE
-			location   	(672, 1168)
-			font       	(object Font
-			    size       	9
-			    face       	"Arial"
-			    bold       	FALSE
-			    italics    	FALSE
-			    underline  	FALSE
-			    strike     	FALSE
-			    color      	0
-			    default_color 	TRUE)
-			label      	(object ItemLabel
-			    Parent_View 	@91
-			    location   	(571, 1068)
-			    fill_color 	13434879
-			    nlines     	1
-			    max_width  	202
-			    justify    	0
-			    label      	"比赛项目")
-			icon_style 	"Icon"
-			line_color 	3342489
-			fill_color 	13434879
-			quidu      	"59E84D270099"
-			compartment 	(object Compartment
-			    Parent_View 	@91
-			    location   	(571, 1126)
+			    location   	(207, 198)
 			    font       	(object Font
 				size       	9
 				face       	"Arial"
@@ -2484,17 +2469,17 @@
 			    fill_color 	13434879
 			    anchor     	2
 			    nlines     	3
-			    max_width  	200
+			    max_width  	250
 			    justify    	1)
-			width      	220
+			width      	276
 			height     	222
 			annotation 	8
 			autoResize 	TRUE)
-		    (object ClassView "Class" "Logical View::裁判员" @92
+		    (object ClassView "Class" "Logical View::比赛项目" @91
 			ShowCompartmentStereotypes 	TRUE
 			IncludeAttribute 	TRUE
 			IncludeOperation 	TRUE
-			location   	(896, 288)
+			location   	(816, 880)
 			font       	(object Font
 			    size       	9
 			    face       	"Arial"
@@ -2505,68 +2490,20 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@92
-			    location   	(776, 94)
+			    Parent_View 	@91
+			    location   	(644, 757)
 			    fill_color 	13434879
 			    nlines     	1
-			    max_width  	240
+			    max_width  	344
 			    justify    	0
-			    label      	"裁判员")
+			    label      	"比赛项目")
 			icon_style 	"Icon"
 			line_color 	3342489
 			fill_color 	13434879
-			quidu      	"59DF5762038A"
+			quidu      	"59E84D270099"
 			compartment 	(object Compartment
-			    Parent_View 	@92
-			    location   	(776, 152)
-			    font       	(object Font
-				size       	9
-				face       	"Arial"
-				bold       	FALSE
-				italics    	FALSE
-				underline  	FALSE
-				strike     	FALSE
-				color      	0
-				default_color 	TRUE)
-			    icon_style 	"Icon"
-			    fill_color 	13434879
-			    anchor     	2
-			    nlines     	7
-			    max_width  	238
-			    justify    	1)
-			width      	258
-			height     	410
-			annotation 	8
-			autoResize 	TRUE)
-		    (object ClassView "Class" "Logical View::代表队" @93
-			ShowCompartmentStereotypes 	TRUE
-			IncludeAttribute 	TRUE
-			IncludeOperation 	TRUE
-			location   	(352, 736)
-			font       	(object Font
-			    size       	9
-			    face       	"Arial"
-			    bold       	FALSE
-			    italics    	FALSE
-			    underline  	FALSE
-			    strike     	FALSE
-			    color      	0
-			    default_color 	TRUE)
-			label      	(object ItemLabel
-			    Parent_View 	@93
-			    location   	(269, 613)
-			    fill_color 	13434879
-			    nlines     	1
-			    max_width  	166
-			    justify    	0
-			    label      	"代表队")
-			icon_style 	"Icon"
-			line_color 	3342489
-			fill_color 	13434879
-			quidu      	"59DF1DAF03AC"
-			compartment 	(object Compartment
-			    Parent_View 	@93
-			    location   	(269, 671)
+			    Parent_View 	@91
+			    location   	(644, 815)
 			    font       	(object Font
 				size       	9
 				face       	"Arial"
@@ -2580,9 +2517,105 @@
 			    fill_color 	13434879
 			    anchor     	2
 			    nlines     	4
-			    max_width  	163
+			    max_width  	341
 			    justify    	1)
-			width      	184
+			width      	362
+			height     	268
+			annotation 	8
+			autoResize 	TRUE)
+		    (object ClassView "Class" "Logical View::裁判员" @92
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			location   	(800, 336)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@92
+			    location   	(635, 130)
+			    fill_color 	13434879
+			    nlines     	1
+			    max_width  	330
+			    justify    	0
+			    label      	"裁判员")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"59DF5762038A"
+			compartment 	(object Compartment
+			    Parent_View 	@92
+			    location   	(635, 191)
+			    font       	(object Font
+				size       	10
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    fill_color 	13434879
+			    anchor     	2
+			    nlines     	7
+			    max_width  	328
+			    justify    	1)
+			width      	348
+			height     	436
+			annotation 	8
+			autoResize 	TRUE)
+		    (object ClassView "Class" "Logical View::代表队" @93
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			location   	(1248, 256)
+			font       	(object Font
+			    size       	9
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@93
+			    location   	(1103, 133)
+			    fill_color 	13434879
+			    nlines     	1
+			    max_width  	290
+			    justify    	0
+			    label      	"代表队")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"59DF1DAF03AC"
+			compartment 	(object Compartment
+			    Parent_View 	@93
+			    location   	(1103, 191)
+			    font       	(object Font
+				size       	9
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    fill_color 	13434879
+			    anchor     	2
+			    nlines     	4
+			    max_width  	288
+			    justify    	1)
+			width      	308
 			height     	268
 			annotation 	8
 			autoResize 	TRUE)
@@ -2590,7 +2623,7 @@
 			ShowCompartmentStereotypes 	TRUE
 			IncludeAttribute 	TRUE
 			IncludeOperation 	TRUE
-			location   	(1280, 384)
+			location   	(1712, 320)
 			font       	(object Font
 			    size       	9
 			    face       	"Arial"
@@ -2602,10 +2635,10 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@94
-			    location   	(1151, 190)
+			    location   	(1567, 126)
 			    fill_color 	13434879
 			    nlines     	1
-			    max_width  	258
+			    max_width  	290
 			    justify    	0
 			    label      	"队伍工作人员")
 			icon_style 	"Icon"
@@ -2614,7 +2647,7 @@
 			quidu      	"59DF574700CB"
 			compartment 	(object Compartment
 			    Parent_View 	@94
-			    location   	(1151, 248)
+			    location   	(1567, 184)
 			    font       	(object Font
 				size       	9
 				face       	"Arial"
@@ -2628,9 +2661,9 @@
 			    fill_color 	13434879
 			    anchor     	2
 			    nlines     	7
-			    max_width  	238
+			    max_width  	288
 			    justify    	1)
-			width      	276
+			width      	308
 			height     	410
 			annotation 	8
 			autoResize 	TRUE)
@@ -2638,7 +2671,7 @@
 			ShowCompartmentStereotypes 	TRUE
 			IncludeAttribute 	TRUE
 			IncludeOperation 	TRUE
-			location   	(368, 1168)
+			location   	(352, 848)
 			font       	(object Font
 			    size       	9
 			    face       	"Arial"
@@ -2650,10 +2683,10 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@95
-			    location   	(266, 1092)
+			    location   	(217, 771)
 			    fill_color 	13434879
 			    nlines     	1
-			    max_width  	204
+			    max_width  	270
 			    justify    	0
 			    label      	"年龄组")
 			icon_style 	"Icon"
@@ -2662,7 +2695,7 @@
 			quidu      	"59E84CF501CC"
 			compartment 	(object Compartment
 			    Parent_View 	@95
-			    location   	(266, 1150)
+			    location   	(217, 829)
 			    font       	(object Font
 				size       	9
 				face       	"Arial"
@@ -2676,17 +2709,17 @@
 			    fill_color 	13434879
 			    anchor     	2
 			    nlines     	2
-			    max_width  	200
+			    max_width  	266
 			    justify    	1)
-			width      	222
-			height     	174
+			width      	288
+			height     	176
 			annotation 	8
 			autoResize 	TRUE)
-		    (object ClassView "Class" "Logical View::赛事编排结果" @96
+		    (object ClassView "Class" "Logical View::出场顺序" @96
 			ShowCompartmentStereotypes 	TRUE
 			IncludeAttribute 	TRUE
 			IncludeOperation 	TRUE
-			location   	(1312, 1184)
+			location   	(1776, 880)
 			font       	(object Font
 			    size       	9
 			    face       	"Arial"
@@ -2698,19 +2731,19 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@96
-			    location   	(1183, 1061)
+			    location   	(1585, 756)
 			    fill_color 	13434879
 			    nlines     	1
-			    max_width  	258
+			    max_width  	382
 			    justify    	0
-			    label      	"赛事编排结果")
+			    label      	"出场顺序")
 			icon_style 	"Icon"
 			line_color 	3342489
 			fill_color 	13434879
 			quidu      	"59DF57C80005"
 			compartment 	(object Compartment
 			    Parent_View 	@96
-			    location   	(1183, 1119)
+			    location   	(1585, 814)
 			    font       	(object Font
 				size       	9
 				face       	"Arial"
@@ -2724,17 +2757,17 @@
 			    fill_color 	13434879
 			    anchor     	2
 			    nlines     	4
-			    max_width  	238
+			    max_width  	393
 			    justify    	1)
-			width      	276
-			height     	268
+			width      	400
+			height     	270
 			annotation 	8
 			autoResize 	TRUE)
 		    (object ClassView "Class" "Logical View::赛事表" @97
 			ShowCompartmentStereotypes 	TRUE
 			IncludeAttribute 	TRUE
 			IncludeOperation 	TRUE
-			location   	(944, 1232)
+			location   	(1280, 944)
 			font       	(object Font
 			    size       	9
 			    face       	"Arial"
@@ -2746,10 +2779,10 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@97
-			    location   	(842, 1038)
+			    location   	(1108, 750)
 			    fill_color 	13434879
 			    nlines     	1
-			    max_width  	204
+			    max_width  	344
 			    justify    	0
 			    label      	"赛事表")
 			icon_style 	"Icon"
@@ -2758,7 +2791,7 @@
 			quidu      	"59DF56CF007E"
 			compartment 	(object Compartment
 			    Parent_View 	@97
-			    location   	(842, 1096)
+			    location   	(1108, 808)
 			    font       	(object Font
 				size       	9
 				face       	"Arial"
@@ -2772,9 +2805,9 @@
 			    fill_color 	13434879
 			    anchor     	2
 			    nlines     	7
-			    max_width  	209
+			    max_width  	341
 			    justify    	1)
-			width      	222
+			width      	362
 			height     	410
 			annotation 	8
 			autoResize 	TRUE)
@@ -2782,7 +2815,7 @@
 			ShowCompartmentStereotypes 	TRUE
 			IncludeAttribute 	TRUE
 			IncludeOperation 	TRUE
-			location   	(2288, 288)
+			location   	(2656, 208)
 			font       	(object Font
 			    size       	9
 			    face       	"Arial"
@@ -2794,10 +2827,10 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@98
-			    location   	(2174, 188)
+			    location   	(2530, 108)
 			    fill_color 	13434879
 			    nlines     	1
-			    max_width  	228
+			    max_width  	252
 			    justify    	0
 			    label      	"系统管理员")
 			icon_style 	"Icon"
@@ -2806,7 +2839,7 @@
 			quidu      	"59DF56FF034D"
 			compartment 	(object Compartment
 			    Parent_View 	@98
-			    location   	(2174, 246)
+			    location   	(2530, 166)
 			    font       	(object Font
 				size       	9
 				face       	"Arial"
@@ -2820,9 +2853,9 @@
 			    fill_color 	13434879
 			    anchor     	2
 			    nlines     	3
-			    max_width  	125
+			    max_width  	250
 			    justify    	1)
-			width      	246
+			width      	270
 			height     	222
 			annotation 	8
 			autoResize 	TRUE)
@@ -2830,7 +2863,7 @@
 			ShowCompartmentStereotypes 	TRUE
 			IncludeAttribute 	TRUE
 			IncludeOperation 	TRUE
-			location   	(1760, 320)
+			location   	(2256, 320)
 			font       	(object Font
 			    size       	9
 			    face       	"Arial"
@@ -2842,10 +2875,10 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@99
-			    location   	(1640, 103)
+			    location   	(2066, 126)
 			    fill_color 	13434879
 			    nlines     	1
-			    max_width  	240
+			    max_width  	380
 			    justify    	0
 			    label      	"运动员")
 			icon_style 	"Icon"
@@ -2854,7 +2887,7 @@
 			quidu      	"59DF573601FB"
 			compartment 	(object Compartment
 			    Parent_View 	@99
-			    location   	(1640, 161)
+			    location   	(2066, 184)
 			    font       	(object Font
 				size       	9
 				face       	"Arial"
@@ -2867,18 +2900,18 @@
 			    icon_style 	"Icon"
 			    fill_color 	13434879
 			    anchor     	2
-			    nlines     	8
-			    max_width  	238
+			    nlines     	7
+			    max_width  	379
 			    justify    	1)
-			width      	258
-			height     	456
+			width      	398
+			height     	410
 			annotation 	8
 			autoResize 	TRUE)
-		    (object ClassView "Class" "Logical View::总成绩" @100
+		    (object ClassView "Class" "Logical View::成绩" @100
 			ShowCompartmentStereotypes 	TRUE
 			IncludeAttribute 	TRUE
 			IncludeOperation 	TRUE
-			location   	(1680, 1200)
+			location   	(2304, 928)
 			font       	(object Font
 			    size       	9
 			    face       	"Arial"
@@ -2890,19 +2923,19 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@100
-			    location   	(1560, 1077)
+			    location   	(2113, 758)
 			    fill_color 	13434879
 			    nlines     	1
-			    max_width  	240
+			    max_width  	382
 			    justify    	0
-			    label      	"总成绩")
+			    label      	"成绩")
 			icon_style 	"Icon"
 			line_color 	3342489
 			fill_color 	13434879
 			quidu      	"59DF585B0107"
 			compartment 	(object Compartment
 			    Parent_View 	@100
-			    location   	(1560, 1135)
+			    location   	(2113, 816)
 			    font       	(object Font
 				size       	9
 				face       	"Arial"
@@ -2915,11 +2948,11 @@
 			    icon_style 	"Icon"
 			    fill_color 	13434879
 			    anchor     	2
-			    nlines     	4
-			    max_width  	238
+			    nlines     	6
+			    max_width  	379
 			    justify    	1)
-			width      	258
-			height     	268
+			width      	400
+			height     	362
 			annotation 	8
 			autoResize 	TRUE)))))
     root_subsystem 	(object SubSystem "Component View"
@@ -6552,7 +6585,7 @@
 		    (object Attribute
 			tool       	"Java"
 			name       	"ClassPath"
-			value      	".;D:\\JDK\\lib\\dt.jar;D:\\JDK\\lib\\tools.jar;")
+			value      	".;")
 		    (object Attribute
 			tool       	"Java"
 			name       	"EditorType"
