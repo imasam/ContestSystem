@@ -14,7 +14,6 @@
  账号 refereeUser
  密码 refereePwd
 
-代表队 team
 代表队 Team
  队账号 teamUser
  队名 teamName
