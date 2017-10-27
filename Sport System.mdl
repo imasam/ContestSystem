@@ -975,7 +975,7 @@
 				supplier   	@10
 				vertices   	(list Points
 				    (571, 641)
-				    (814, 759))
+				    (812, 757))
 				line_style 	0)
 			    (object RoleView "$UNNAMED$20" @14
 				Parent_View 	@12
@@ -1089,7 +1089,7 @@
 				supplier   	@17
 				vertices   	(list Points
 				    (571, 375)
-				    (814, 281))
+				    (928, 240))
 				line_style 	0)
 			    (object RoleView "$UNNAMED$8" @20
 				Parent_View 	@18
@@ -1101,7 +1101,7 @@
 				supplier   	@11
 				vertices   	(list Points
 				    (571, 375)
-				    (329, 470))
+				    (329, 469))
 				line_style 	0)))
 		    (object UseCaseView "Use Case View::Use-Case Model::Use Cases::修改密码" @21
 			location   	(928, 512)
@@ -1153,7 +1153,7 @@
 				supplier   	@21
 				vertices   	(list Points
 				    (571, 501)
-				    (814, 506))
+				    (812, 505))
 				line_style 	0)
 			    (object RoleView "$UNNAMED$17" @24
 				Parent_View 	@22
@@ -1284,7 +1284,7 @@
 				supplier   	@16
 				vertices   	(list Points
 				    (1795, 641)
-				    (1949, 738))
+				    (1952, 738))
 				line_style 	0)
 			    (object RoleView "$UNNAMED$41" @32
 				Parent_View 	@30
@@ -1296,7 +1296,7 @@
 				supplier   	@26
 				vertices   	(list Points
 				    (1795, 641)
-				    (1641, 545))
+				    (1641, 546))
 				line_style 	0)))
 		    (object AssociationViewNew "$UNNAMED$48" @33
 			location   	(1281, 384)
@@ -1323,7 +1323,7 @@
 				supplier   	@17
 				vertices   	(list Points
 				    (1281, 384)
-				    (1040, 284))
+				    (928, 240))
 				line_style 	0)
 			    (object RoleView "$UNNAMED$50" @35
 				Parent_View 	@33
@@ -1335,7 +1335,7 @@
 				supplier   	@26
 				vertices   	(list Points
 				    (1281, 384)
-				    (1523, 484))
+				    (1525, 484))
 				line_style 	0)))
 		    (object AssociationViewNew "$UNNAMED$51" @36
 			location   	(1281, 512)
@@ -1374,7 +1374,7 @@
 				supplier   	@26
 				vertices   	(list Points
 				    (1281, 512)
-				    (1523, 512))
+				    (1525, 512))
 				line_style 	0)))
 		    (object AssociationViewNew "$UNNAMED$54" @39
 			location   	(1760, 390)
@@ -1401,7 +1401,7 @@
 				supplier   	@25
 				vertices   	(list Points
 				    (1760, 390)
-				    (1880, 309))
+				    (2032, 208))
 				line_style 	0)
 			    (object RoleView "$UNNAMED$56" @41
 				Parent_View 	@39
@@ -1413,7 +1413,7 @@
 				supplier   	@26
 				vertices   	(list Points
 				    (1760, 390)
-				    (1641, 471))
+				    (1641, 467))
 				line_style 	0)))
 		    (object UseCaseView "Use Case View::Use-Case Model::Use Cases::确认打分" @42
 			location   	(880, 1616)
@@ -1518,7 +1518,7 @@
 				supplier   	@42
 				vertices   	(list Points
 				    (603, 1719)
-				    (766, 1656))
+				    (880, 1616))
 				line_style 	0)
 			    (object RoleView "$UNNAMED$44" @47
 				Parent_View 	@45
@@ -1530,7 +1530,7 @@
 				supplier   	@44
 				vertices   	(list Points
 				    (603, 1719)
-				    (441, 1782))
+				    (441, 1781))
 				line_style 	0)))
 		    (object AssociationViewNew "$UNNAMED$45" @48
 			location   	(595, 1906)
@@ -1557,7 +1557,7 @@
 				supplier   	@43
 				vertices   	(list Points
 				    (595, 1906)
-				    (750, 1979))
+				    (748, 1976))
 				line_style 	0)
 			    (object RoleView "$UNNAMED$47" @50
 				Parent_View 	@48
@@ -1569,7 +1569,7 @@
 				supplier   	@44
 				vertices   	(list Points
 				    (595, 1906)
-				    (441, 1834))
+				    (441, 1833))
 				line_style 	0)))
 		    (object UseCaseView "Use Case View::Use-Case Model::Use Cases::设置小组总裁判" @51
 			location   	(3120, 1632)
@@ -1824,7 +1824,7 @@
 				supplier   	@52
 				vertices   	(list Points
 				    (2728, 810)
-				    (2948, 438))
+				    (2970, 391))
 				line_style 	0)
 			    (object RoleView "$UNNAMED$23" @62
 				Parent_View 	@60
@@ -1836,7 +1836,7 @@
 				supplier   	@59
 				vertices   	(list Points
 				    (2728, 810)
-				    (2508, 1183))
+				    (2505, 1184))
 				line_style 	0)))
 		    (object AssociationViewNew "$UNNAMED$27" @63
 			location   	(2726, 931)
@@ -1863,7 +1863,7 @@
 				supplier   	@53
 				vertices   	(list Points
 				    (2726, 931)
-				    (2932, 674))
+				    (2940, 663))
 				line_style 	0)
 			    (object RoleView "$UNNAMED$29" @65
 				Parent_View 	@63
@@ -1875,7 +1875,7 @@
 				supplier   	@59
 				vertices   	(list Points
 				    (2726, 931)
-				    (2521, 1189))
+				    (2521, 1186))
 				line_style 	0)))
 		    (object AssociationViewNew "$UNNAMED$33" @66
 			location   	(2731, 1044)
@@ -1902,7 +1902,7 @@
 				supplier   	@54
 				vertices   	(list Points
 				    (2731, 1044)
-				    (2941, 875))
+				    (2865, 935))
 				line_style 	0)
 			    (object RoleView "$UNNAMED$35" @68
 				Parent_View 	@66
@@ -1914,7 +1914,7 @@
 				supplier   	@59
 				vertices   	(list Points
 				    (2731, 1044)
-				    (2521, 1213))
+				    (2521, 1214))
 				line_style 	0)))
 		    (object AssociationViewNew "$UNNAMED$57" @69
 			location   	(2747, 1158)
@@ -1941,7 +1941,7 @@
 				supplier   	@55
 				vertices   	(list Points
 				    (2747, 1158)
-				    (2974, 1077))
+				    (3088, 1040))
 				line_style 	0)
 			    (object RoleView "$UNNAMED$59" @71
 				Parent_View 	@69
@@ -1980,7 +1980,7 @@
 				supplier   	@56
 				vertices   	(list Points
 				    (2755, 1290)
-				    (2990, 1314))
+				    (2990, 1310))
 				line_style 	0)
 			    (object RoleView "$UNNAMED$62" @74
 				Parent_View 	@72
@@ -2031,7 +2031,7 @@
 				supplier   	@59
 				vertices   	(list Points
 				    (2789, 1589)
-				    (2521, 1321))
+				    (2550, 1349))
 				line_style 	0)))
 		    (object AssociationViewNew "$UNNAMED$69" @78
 			location   	(2821, 1775)
@@ -2058,7 +2058,7 @@
 				supplier   	@58
 				vertices   	(list Points
 				    (2821, 1775)
-				    (3092, 2162))
+				    (3089, 2160))
 				line_style 	0)
 			    (object RoleView "$UNNAMED$71" @80
 				Parent_View 	@78
@@ -2070,7 +2070,7 @@
 				supplier   	@59
 				vertices   	(list Points
 				    (2821, 1775)
-				    (2550, 1388))
+				    (2550, 1387))
 				line_style 	0)))
 		    (object UseCaseView "Use Case View::Use-Case Model::Use Cases::发出打分指令" @81
 			location   	(1840, 1600)
@@ -2175,7 +2175,7 @@
 				supplier   	@81
 				vertices   	(list Points
 				    (1619, 1712)
-				    (1709, 1665))
+				    (1840, 1600))
 				line_style 	0)
 			    (object RoleView "$UNNAMED$74" @86
 				Parent_View 	@84
@@ -2187,7 +2187,7 @@
 				supplier   	@83
 				vertices   	(list Points
 				    (1619, 1712)
-				    (1529, 1759))
+				    (1529, 1757))
 				line_style 	0)))
 		    (object AssociationViewNew "$UNNAMED$75" @87
 			location   	(1634, 1864)
@@ -2214,7 +2214,7 @@
 				supplier   	@82
 				vertices   	(list Points
 				    (1634, 1864)
-				    (1740, 1912))
+				    (1741, 1912))
 				line_style 	0)
 			    (object RoleView "$UNNAMED$77" @89
 				Parent_View 	@87
@@ -2272,7 +2272,7 @@
 			type       	"Date")
 		    (object ClassAttribute "预决赛"
 			quid       	"59F18BD101E3"
-			type       	"Boolean")
+			type       	"Byte")
 		    (object ClassAttribute "组号"
 			quid       	"59F192190076"
 			type       	"Integer")))
@@ -2294,16 +2294,15 @@
 		    (object ClassAttribute "性别"
 			quid       	"59E05CB90289"
 			type       	"Byte")
-		    (object ClassAttribute "身份证号"
+		    (object ClassAttribute "身份证"
 			quid       	"59E05CBD013A"
 			type       	"String")
 		    (object ClassAttribute "姓名"
 			quid       	"59E05CD1023E"
 			type       	"String")
-		    (object ClassAttribute "年龄范围"
+		    (object ClassAttribute "年龄组"
 			quid       	"59E05CDE01E6"
-			type       	"年龄组"
-			quidu      	"59E84CF501CC")
+			type       	"Integer")
 		    (object ClassAttribute "文化成绩"
 			quid       	"59E05CEB01C0"
 			type       	"Integer")))
@@ -2349,7 +2348,7 @@
 		    (object ClassAttribute "密码"
 			quid       	"59F18A2A00E3"
 			type       	"String")))
-	    (object Class "出场顺序"
+	    (object Class "出场顺序信息"
 		quid       	"59DF57C80005"
 		class_attributes 	(list class_attribute_list
 		    (object ClassAttribute "比赛编号"
@@ -2370,7 +2369,7 @@
 		    (object ClassAttribute "密码"
 			quid       	"59E05D330192"
 			type       	"String")))
-	    (object Class "成绩"
+	    (object Class "赛事结果"
 		quid       	"59DF585B0107"
 		class_attributes 	(list class_attribute_list
 		    (object ClassAttribute "运动员编号"
@@ -2379,20 +2378,23 @@
 		    (object ClassAttribute "项目编号"
 			quid       	"59E05E1B0385"
 			type       	"Integer")
-		    (object ClassAttribute "成绩"
+		    (object ClassAttribute "得分"
 			quid       	"59E05E7702C3"
 			type       	"Integer")
 		    (object ClassAttribute "打分类型"
 			quid       	"59F1913F0125"
-			type       	"Boolean")
+			type       	"String")
 		    (object ClassAttribute "裁判账号"
 			quid       	"59F19160007C"
 			type       	"String")))
 	    (object Class "年龄组"
 		quid       	"59E84CF501CC"
 		class_attributes 	(list class_attribute_list
-		    (object ClassAttribute "年龄"
+		    (object ClassAttribute "年龄上界"
 			quid       	"59E84D060229"
+			type       	"Integer")
+		    (object ClassAttribute "年龄下界"
+			quid       	"59F2D1DC019C"
 			type       	"Integer")))
 	    (object Class "比赛项目"
 		quid       	"59E84D270099"
@@ -2424,7 +2426,7 @@
 		zoom       	100
 		max_height 	28350
 		max_width  	21600
-		origin_x   	0
+		origin_x   	2694
 		origin_y   	0
 		items      	(list diagram_item_list
 		    (object ClassView "Class" "Logical View::比赛控制人员" @90
@@ -2469,7 +2471,7 @@
 			    fill_color 	13434879
 			    anchor     	2
 			    nlines     	3
-			    max_width  	250
+			    max_width  	262
 			    justify    	1)
 			width      	276
 			height     	222
@@ -2517,7 +2519,7 @@
 			    fill_color 	13434879
 			    anchor     	2
 			    nlines     	4
-			    max_width  	341
+			    max_width  	356
 			    justify    	1)
 			width      	362
 			height     	268
@@ -2565,7 +2567,7 @@
 			    fill_color 	13434879
 			    anchor     	2
 			    nlines     	7
-			    max_width  	328
+			    max_width  	359
 			    justify    	1)
 			width      	348
 			height     	436
@@ -2613,7 +2615,7 @@
 			    fill_color 	13434879
 			    anchor     	2
 			    nlines     	4
-			    max_width  	288
+			    max_width  	300
 			    justify    	1)
 			width      	308
 			height     	268
@@ -2661,7 +2663,7 @@
 			    fill_color 	13434879
 			    anchor     	2
 			    nlines     	7
-			    max_width  	288
+			    max_width  	300
 			    justify    	1)
 			width      	308
 			height     	410
@@ -2683,10 +2685,10 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@95
-			    location   	(217, 771)
+			    location   	(180, 748)
 			    fill_color 	13434879
 			    nlines     	1
-			    max_width  	270
+			    max_width  	344
 			    justify    	0
 			    label      	"年龄组")
 			icon_style 	"Icon"
@@ -2695,7 +2697,7 @@
 			quidu      	"59E84CF501CC"
 			compartment 	(object Compartment
 			    Parent_View 	@95
-			    location   	(217, 829)
+			    location   	(180, 806)
 			    font       	(object Font
 				size       	9
 				face       	"Arial"
@@ -2708,14 +2710,14 @@
 			    icon_style 	"Icon"
 			    fill_color 	13434879
 			    anchor     	2
-			    nlines     	2
-			    max_width  	266
+			    nlines     	3
+			    max_width  	341
 			    justify    	1)
-			width      	288
-			height     	176
+			width      	362
+			height     	222
 			annotation 	8
 			autoResize 	TRUE)
-		    (object ClassView "Class" "Logical View::出场顺序" @96
+		    (object ClassView "Class" "Logical View::出场顺序信息" @96
 			ShowCompartmentStereotypes 	TRUE
 			IncludeAttribute 	TRUE
 			IncludeOperation 	TRUE
@@ -2731,19 +2733,19 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@96
-			    location   	(1585, 756)
+			    location   	(1586, 756)
 			    fill_color 	13434879
 			    nlines     	1
-			    max_width  	382
+			    max_width  	380
 			    justify    	0
-			    label      	"出场顺序")
+			    label      	"出场顺序信息")
 			icon_style 	"Icon"
 			line_color 	3342489
 			fill_color 	13434879
 			quidu      	"59DF57C80005"
 			compartment 	(object Compartment
 			    Parent_View 	@96
-			    location   	(1585, 814)
+			    location   	(1586, 814)
 			    font       	(object Font
 				size       	9
 				face       	"Arial"
@@ -2759,7 +2761,7 @@
 			    nlines     	4
 			    max_width  	393
 			    justify    	1)
-			width      	400
+			width      	398
 			height     	270
 			annotation 	8
 			autoResize 	TRUE)
@@ -2805,7 +2807,7 @@
 			    fill_color 	13434879
 			    anchor     	2
 			    nlines     	7
-			    max_width  	341
+			    max_width  	340
 			    justify    	1)
 			width      	362
 			height     	410
@@ -2853,7 +2855,7 @@
 			    fill_color 	13434879
 			    anchor     	2
 			    nlines     	3
-			    max_width  	250
+			    max_width  	262
 			    justify    	1)
 			width      	270
 			height     	222
@@ -2901,13 +2903,13 @@
 			    fill_color 	13434879
 			    anchor     	2
 			    nlines     	7
-			    max_width  	379
+			    max_width  	377
 			    justify    	1)
 			width      	398
 			height     	410
 			annotation 	8
 			autoResize 	TRUE)
-		    (object ClassView "Class" "Logical View::成绩" @100
+		    (object ClassView "Class" "Logical View::赛事结果" @100
 			ShowCompartmentStereotypes 	TRUE
 			IncludeAttribute 	TRUE
 			IncludeOperation 	TRUE
@@ -2923,19 +2925,19 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@100
-			    location   	(2113, 758)
+			    location   	(2114, 758)
 			    fill_color 	13434879
 			    nlines     	1
-			    max_width  	382
+			    max_width  	380
 			    justify    	0
-			    label      	"成绩")
+			    label      	"赛事结果")
 			icon_style 	"Icon"
 			line_color 	3342489
 			fill_color 	13434879
 			quidu      	"59DF585B0107"
 			compartment 	(object Compartment
 			    Parent_View 	@100
-			    location   	(2113, 816)
+			    location   	(2114, 816)
 			    font       	(object Font
 				size       	9
 				face       	"Arial"
@@ -2949,9 +2951,9 @@
 			    fill_color 	13434879
 			    anchor     	2
 			    nlines     	6
-			    max_width  	379
+			    max_width  	377
 			    justify    	1)
-			width      	400
+			width      	398
 			height     	362
 			annotation 	8
 			autoResize 	TRUE)))))

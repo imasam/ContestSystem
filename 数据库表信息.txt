@@ -1,0 +1,65 @@
+系统管理员 admin
+ 账号 adminUser
+ 密码 adminPwd
+
+比赛控制人员 controller
+ 账号 ctrlUser
+ 密码 ctrlPwd
+
+裁判员 referee
+ 身份证 idNumber
+ 电话 phone
+ 姓名 name
+ 队名 teamName
+ 账号 refereeUser
+ 密码 refereePwd
+
+代表队 team
+ 队账号 teamUser
+ 队名 teamName
+ 密码 teamPwd
+
+队伍工作人员 staff
+ 姓名 name
+ 身份证 idNumber
+ 电话 phone
+ 性别 sex
+ 职务 duty
+ 队名 teamName
+
+运动员 athlete
+ 运动员编号 athleteNo
+ 性别 sex
+ 身份证 idNumber
+ 姓名 name
+ 年龄范围 ageGroup
+ 文化成绩 academicRecord
+
+年龄组 ageGroup
+ 年龄上界 ageMax
+ 年龄下界 ageMin
+
+比赛项目 event
+ 项目编号 eventNo
+ 男女组 sex
+ 项目名 eventName
+
+赛事表 match
+ 项目编号 eventNo
+ 比赛编号 matchNo
+ 比赛类型 matchType
+ 比赛时间 matchTime
+ 预决赛 preOrFinal
+ 组号 groupNo
+
+出场顺序信息 orderInfo
+ 比赛编号 matchNo
+ 运动员编号 athleteNo
+ 出场编号 order
+
+赛事结果 result
+ 运动员编号 athleteNo
+ 项目编号 eventNo
+ 得分 score
+ 打分类型 scoreType
+ 裁判账号 refereeUser
