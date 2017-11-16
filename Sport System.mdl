@@ -2301,7 +2301,9 @@
 			type       	"Integer")
 		    (object ClassAttribute "文化成绩"
 			quid       	"59E05CEB01C0"
-			type       	"Integer")))
+			type       	"Integer")
+		    (object ClassAttribute "队名"
+			quid       	"5A0D4D1E03B4")))
 	    (object Class "队伍工作人员"
 		quid       	"59DF574700CB"
 		class_attributes 	(list class_attribute_list
@@ -2406,7 +2408,11 @@
 			type       	"Byte")
 		    (object ClassAttribute "项目编号"
 			quid       	"59F191C5004F"
-			type       	"Integer"))))
+			type       	"Integer")
+		    (object ClassAttribute "年龄组"
+			quid       	"5A0D46C10224"
+			type       	"年龄组"
+			quidu      	"59E84CF501CC"))))
 	logical_presentations 	(list unit_reference_list
 	    (object ClassDiagram "Main"
 		quid       	"3512226B0028"
@@ -2492,7 +2498,7 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@91
-			    location   	(644, 741)
+			    location   	(644, 717)
 			    fill_color 	13434879
 			    nlines     	1
 			    max_width  	344
@@ -2504,7 +2510,7 @@
 			quidu      	"59E84D270099"
 			compartment 	(object Compartment
 			    Parent_View 	@91
-			    location   	(644, 799)
+			    location   	(644, 775)
 			    font       	(object Font
 				size       	9
 				face       	"Arial"
@@ -2517,11 +2523,11 @@
 			    icon_style 	"Icon"
 			    fill_color 	13434879
 			    anchor     	2
-			    nlines     	4
-			    max_width  	356
+			    nlines     	5
+			    max_width  	341
 			    justify    	1)
 			width      	362
-			height     	268
+			height     	316
 			annotation 	8
 			autoResize 	TRUE)
 		    (object ClassView "Class" "Logical View::裁判员" @92
@@ -2876,10 +2882,10 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@99
-			    location   	(2066, 126)
+			    location   	(2065, 103)
 			    fill_color 	13434879
 			    nlines     	1
-			    max_width  	380
+			    max_width  	382
 			    justify    	0
 			    label      	"运动员")
 			icon_style 	"Icon"
@@ -2888,7 +2894,7 @@
 			quidu      	"59DF573601FB"
 			compartment 	(object Compartment
 			    Parent_View 	@99
-			    location   	(2066, 184)
+			    location   	(2065, 161)
 			    font       	(object Font
 				size       	9
 				face       	"Arial"
@@ -2901,11 +2907,11 @@
 			    icon_style 	"Icon"
 			    fill_color 	13434879
 			    anchor     	2
-			    nlines     	7
-			    max_width  	393
+			    nlines     	8
+			    max_width  	379
 			    justify    	1)
-			width      	398
-			height     	410
+			width      	400
+			height     	456
 			annotation 	8
 			autoResize 	TRUE)
 		    (object ClassView "Class" "Logical View::赛事结果" @100
