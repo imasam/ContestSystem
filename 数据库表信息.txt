@@ -57,7 +57,7 @@
  运动员编号 athleteNo
  出场编号 order
 
-赛事结果 Rsult
+赛事结果 ScoreResult
  运动员编号 athleteNo
  项目编号 eventNo
  得分 score
