@@ -2261,21 +2261,17 @@
 		    (object ClassAttribute "项目编号"
 			quid       	"59E05C7202CD"
 			type       	"Integer")
-		    (object ClassAttribute "比赛编号"
-			quid       	"59E05C9A0095"
-			type       	"Integer")
 		    (object ClassAttribute "比赛类型"
 			quid       	"59E847B8016A"
 			type       	"String")
-		    (object ClassAttribute "比赛时间"
-			quid       	"59F1810A02A0"
-			type       	"Date")
 		    (object ClassAttribute "预决赛"
 			quid       	"59F18BD101E3"
 			type       	"Byte")
 		    (object ClassAttribute "组号"
 			quid       	"59F192190076"
-			type       	"Integer")))
+			type       	"Integer")
+		    (object ClassAttribute "比赛时间"
+			quid       	"5A0D4288004E")))
 	    (object Class "系统管理员"
 		quid       	"59DF56FF034D"
 		class_attributes 	(list class_attribute_list
@@ -2351,7 +2347,7 @@
 	    (object Class "出场顺序信息"
 		quid       	"59DF57C80005"
 		class_attributes 	(list class_attribute_list
-		    (object ClassAttribute "比赛编号"
+		    (object ClassAttribute "项目编号"
 			quid       	"59E0636C00C2"
 			type       	"Integer")
 		    (object ClassAttribute "运动员编号"
@@ -2359,6 +2355,9 @@
 			type       	"Integer")
 		    (object ClassAttribute "出场编号"
 			quid       	"59F182D70382"
+			type       	"Integer")
+		    (object ClassAttribute "小组号"
+			quid       	"5A0D40470013"
 			type       	"Integer")))
 	    (object Class "比赛控制人员"
 		quid       	"59DF580F020F"
@@ -2426,7 +2425,7 @@
 		zoom       	100
 		max_height 	28350
 		max_width  	21600
-		origin_x   	2694
+		origin_x   	0
 		origin_y   	0
 		items      	(list diagram_item_list
 		    (object ClassView "Class" "Logical View::比赛控制人员" @90
@@ -2481,7 +2480,7 @@
 			ShowCompartmentStereotypes 	TRUE
 			IncludeAttribute 	TRUE
 			IncludeOperation 	TRUE
-			location   	(816, 880)
+			location   	(816, 864)
 			font       	(object Font
 			    size       	9
 			    face       	"Arial"
@@ -2493,7 +2492,7 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@91
-			    location   	(644, 757)
+			    location   	(644, 741)
 			    fill_color 	13434879
 			    nlines     	1
 			    max_width  	344
@@ -2505,7 +2504,7 @@
 			quidu      	"59E84D270099"
 			compartment 	(object Compartment
 			    Parent_View 	@91
-			    location   	(644, 815)
+			    location   	(644, 799)
 			    font       	(object Font
 				size       	9
 				face       	"Arial"
@@ -2733,10 +2732,10 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@96
-			    location   	(1586, 756)
+			    location   	(1585, 733)
 			    fill_color 	13434879
 			    nlines     	1
-			    max_width  	380
+			    max_width  	382
 			    justify    	0
 			    label      	"出场顺序信息")
 			icon_style 	"Icon"
@@ -2745,7 +2744,7 @@
 			quidu      	"59DF57C80005"
 			compartment 	(object Compartment
 			    Parent_View 	@96
-			    location   	(1586, 814)
+			    location   	(1585, 791)
 			    font       	(object Font
 				size       	9
 				face       	"Arial"
@@ -2758,18 +2757,18 @@
 			    icon_style 	"Icon"
 			    fill_color 	13434879
 			    anchor     	2
-			    nlines     	4
-			    max_width  	393
+			    nlines     	5
+			    max_width  	379
 			    justify    	1)
-			width      	398
-			height     	270
+			width      	400
+			height     	316
 			annotation 	8
 			autoResize 	TRUE)
 		    (object ClassView "Class" "Logical View::赛事表" @97
 			ShowCompartmentStereotypes 	TRUE
 			IncludeAttribute 	TRUE
 			IncludeOperation 	TRUE
-			location   	(1280, 944)
+			location   	(1296, 912)
 			font       	(object Font
 			    size       	9
 			    face       	"Arial"
@@ -2781,7 +2780,7 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@97
-			    location   	(1108, 750)
+			    location   	(1124, 742)
 			    fill_color 	13434879
 			    nlines     	1
 			    max_width  	344
@@ -2793,7 +2792,7 @@
 			quidu      	"59DF56CF007E"
 			compartment 	(object Compartment
 			    Parent_View 	@97
-			    location   	(1108, 808)
+			    location   	(1124, 800)
 			    font       	(object Font
 				size       	9
 				face       	"Arial"
@@ -2806,11 +2805,11 @@
 			    icon_style 	"Icon"
 			    fill_color 	13434879
 			    anchor     	2
-			    nlines     	7
+			    nlines     	6
 			    max_width  	341
 			    justify    	1)
 			width      	362
-			height     	410
+			height     	362
 			annotation 	8
 			autoResize 	TRUE)
 		    (object ClassView "Class" "Logical View::系统管理员" @98
