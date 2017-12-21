@@ -34,6 +34,7 @@
  姓名 name
  年龄范围 ageGroup
  文化成绩 academicRecord
+ 队名 teamName
 
 年龄组 AgeGroup
  年龄上界 ageMax
@@ -46,18 +47,21 @@
 
 赛事表 Match
  项目编号 eventNo
- 比赛编号 matchNo
  比赛类型 matchType
  比赛时间 matchTime
  预决赛 preOrFinal
  组号 groupNo
 
 出场顺序信息 OrderInfo
- 比赛编号 matchNo
+ 项目编号 eventNo
  运动员编号 athleteNo
  出场编号 order
+ 小组号 groupNo
+ 年龄上界 ageMax
+ 年龄下界 ageMin
+ 预决赛 preOrFinal
 
-赛事结果 ScoreResult
+得分表 ScoreResult
  运动员编号 athleteNo
  项目编号 eventNo
  得分 score

@@ -2271,7 +2271,8 @@
 			quid       	"59F192190076"
 			type       	"Integer")
 		    (object ClassAttribute "比赛时间"
-			quid       	"5A0D4288004E")))
+			quid       	"5A0D4288004E"
+			type       	"Date")))
 	    (object Class "系统管理员"
 		quid       	"59DF56FF034D"
 		class_attributes 	(list class_attribute_list
@@ -2303,7 +2304,8 @@
 			quid       	"59E05CEB01C0"
 			type       	"Integer")
 		    (object ClassAttribute "队名"
-			quid       	"5A0D4D1E03B4")))
+			quid       	"5A0D4D1E03B4"
+			type       	"String")))
 	    (object Class "队伍工作人员"
 		quid       	"59DF574700CB"
 		class_attributes 	(list class_attribute_list
@@ -2360,7 +2362,14 @@
 			type       	"Integer")
 		    (object ClassAttribute "小组号"
 			quid       	"5A0D40470013"
-			type       	"Integer")))
+			type       	"Integer")
+		    (object ClassAttribute "年龄组"
+			quid       	"5A0E9EAF01A8"
+			type       	"年龄组"
+			quidu      	"59E84CF501CC")
+		    (object ClassAttribute "预决赛"
+			quid       	"5A0EA8DC01C4"
+			type       	"Byte")))
 	    (object Class "比赛控制人员"
 		quid       	"59DF580F020F"
 		class_attributes 	(list class_attribute_list
@@ -2370,7 +2379,7 @@
 		    (object ClassAttribute "密码"
 			quid       	"59E05D330192"
 			type       	"String")))
-	    (object Class "赛事结果"
+	    (object Class "得分表"
 		quid       	"59DF585B0107"
 		class_attributes 	(list class_attribute_list
 		    (object ClassAttribute "运动员编号"
@@ -2381,7 +2390,7 @@
 			type       	"Integer")
 		    (object ClassAttribute "得分"
 			quid       	"59E05E7702C3"
-			type       	"Integer")
+			type       	"Single")
 		    (object ClassAttribute "打分类型"
 			quid       	"59F1913F0125"
 			type       	"String")
@@ -2408,11 +2417,7 @@
 			type       	"Byte")
 		    (object ClassAttribute "项目编号"
 			quid       	"59F191C5004F"
-			type       	"Integer")
-		    (object ClassAttribute "年龄组"
-			quid       	"5A0D46C10224"
-			type       	"年龄组"
-			quidu      	"59E84CF501CC"))))
+			type       	"Integer"))))
 	logical_presentations 	(list unit_reference_list
 	    (object ClassDiagram "Main"
 		quid       	"3512226B0028"
@@ -2431,7 +2436,7 @@
 		zoom       	100
 		max_height 	28350
 		max_width  	21600
-		origin_x   	0
+		origin_x   	2026
 		origin_y   	0
 		items      	(list diagram_item_list
 		    (object ClassView "Class" "Logical View::比赛控制人员" @90
@@ -2486,7 +2491,7 @@
 			ShowCompartmentStereotypes 	TRUE
 			IncludeAttribute 	TRUE
 			IncludeOperation 	TRUE
-			location   	(816, 864)
+			location   	(800, 880)
 			font       	(object Font
 			    size       	9
 			    face       	"Arial"
@@ -2498,7 +2503,7 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@91
-			    location   	(644, 717)
+			    location   	(628, 756)
 			    fill_color 	13434879
 			    nlines     	1
 			    max_width  	344
@@ -2510,7 +2515,7 @@
 			quidu      	"59E84D270099"
 			compartment 	(object Compartment
 			    Parent_View 	@91
-			    location   	(644, 775)
+			    location   	(628, 814)
 			    font       	(object Font
 				size       	9
 				face       	"Arial"
@@ -2523,11 +2528,11 @@
 			    icon_style 	"Icon"
 			    fill_color 	13434879
 			    anchor     	2
-			    nlines     	5
+			    nlines     	4
 			    max_width  	341
 			    justify    	1)
 			width      	362
-			height     	316
+			height     	270
 			annotation 	8
 			autoResize 	TRUE)
 		    (object ClassView "Class" "Logical View::裁判员" @92
@@ -2738,7 +2743,7 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@96
-			    location   	(1585, 733)
+			    location   	(1585, 686)
 			    fill_color 	13434879
 			    nlines     	1
 			    max_width  	382
@@ -2750,7 +2755,7 @@
 			quidu      	"59DF57C80005"
 			compartment 	(object Compartment
 			    Parent_View 	@96
-			    location   	(1585, 791)
+			    location   	(1585, 744)
 			    font       	(object Font
 				size       	9
 				face       	"Arial"
@@ -2763,18 +2768,18 @@
 			    icon_style 	"Icon"
 			    fill_color 	13434879
 			    anchor     	2
-			    nlines     	5
+			    nlines     	7
 			    max_width  	379
 			    justify    	1)
 			width      	400
-			height     	316
+			height     	410
 			annotation 	8
 			autoResize 	TRUE)
 		    (object ClassView "Class" "Logical View::赛事表" @97
 			ShowCompartmentStereotypes 	TRUE
 			IncludeAttribute 	TRUE
 			IncludeOperation 	TRUE
-			location   	(1296, 912)
+			location   	(1296, 944)
 			font       	(object Font
 			    size       	9
 			    face       	"Arial"
@@ -2786,7 +2791,7 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@97
-			    location   	(1124, 742)
+			    location   	(1124, 774)
 			    fill_color 	13434879
 			    nlines     	1
 			    max_width  	344
@@ -2798,7 +2803,7 @@
 			quidu      	"59DF56CF007E"
 			compartment 	(object Compartment
 			    Parent_View 	@97
-			    location   	(1124, 800)
+			    location   	(1124, 832)
 			    font       	(object Font
 				size       	9
 				face       	"Arial"
@@ -2914,7 +2919,7 @@
 			height     	456
 			annotation 	8
 			autoResize 	TRUE)
-		    (object ClassView "Class" "Logical View::赛事结果" @100
+		    (object ClassView "Class" "Logical View::得分表" @100
 			ShowCompartmentStereotypes 	TRUE
 			IncludeAttribute 	TRUE
 			IncludeOperation 	TRUE
@@ -2930,19 +2935,19 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@100
-			    location   	(2114, 758)
+			    location   	(2113, 758)
 			    fill_color 	13434879
 			    nlines     	1
-			    max_width  	380
+			    max_width  	382
 			    justify    	0
-			    label      	"赛事结果")
+			    label      	"得分表")
 			icon_style 	"Icon"
 			line_color 	3342489
 			fill_color 	13434879
 			quidu      	"59DF585B0107"
 			compartment 	(object Compartment
 			    Parent_View 	@100
-			    location   	(2114, 816)
+			    location   	(2113, 816)
 			    font       	(object Font
 				size       	9
 				face       	"Arial"
@@ -2956,9 +2961,9 @@
 			    fill_color 	13434879
 			    anchor     	2
 			    nlines     	6
-			    max_width  	393
+			    max_width  	379
 			    justify    	1)
-			width      	398
+			width      	400
 			height     	362
 			annotation 	8
 			autoResize 	TRUE)))))
