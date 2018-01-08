@@ -2,7 +2,6 @@
 import struct.*;
 import struct.Event;
 
-import java.awt.*;
 import java.awt.event.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -12,7 +11,6 @@ import java.net.Socket;
 import java.util.Vector;
 
 public class Controller extends JFrame {
-    final int  MAXSIZE = 100;
 
     JPanel splitePane = new JPanel();
 
@@ -36,10 +34,9 @@ public class Controller extends JFrame {
     ObjectOutputStream out;
     ObjectInputStream in;
 
-
     public Controller() {
         try {
-            client = new Socket("10.133.174.11", 2048);
+            client = new Socket("192.168.43.3", 2048);
 
             out = new ObjectOutputStream(client.getOutputStream());
             in = new ObjectInputStream(client.getInputStream());
@@ -56,7 +53,6 @@ public class Controller extends JFrame {
             this.setTitle("小组控制人员");
             this.setResizable(true);
             this.setVisible(true);
-            while(true);
     }
 
     //*************************获取项目列表
@@ -145,6 +141,7 @@ public class Controller extends JFrame {
                 } catch (IOException e1) {
                     e1.printStackTrace();
                 }
+                System.exit(0);
             }
         });
 
@@ -292,7 +289,7 @@ public class Controller extends JFrame {
                 System.out.println("Referee3 is " + refereeUser.get(2));
             }
         });
-
+        /*
         comboBox_referee4.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -310,6 +307,7 @@ public class Controller extends JFrame {
                 System.out.println("Referee5 is " + refereeUser.get(4));
             }
         });
+        */
 
         comboBox_chiefReferee.addActionListener(new ActionListener() {
             @Override
@@ -336,7 +334,9 @@ public class Controller extends JFrame {
                     // TODO Auto-generated catch block
                     e1.printStackTrace();
                 }
-                System.out.println("fuck u bitch");
+                refereeUser = new Vector<String>();
+                sendOrderInfo = new Vector<OrderInfo>();
+                System.out.println("succeed");
             }
         });
 
@@ -364,8 +364,8 @@ public class Controller extends JFrame {
 
         splitePane.add(ensure);
     }
-
+/*
     public static void main(String[] args) {
         new Controller();
-    }
+    }*/
 }
