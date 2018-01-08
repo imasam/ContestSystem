@@ -4,7 +4,7 @@ import java.io.Serializable;
 public class OrderInfo implements Serializable {
     private int eventNo;
     private AgeGroup ageGroup;
-    private byte preOrFinal;
+    private String preOrFinal;
     private int groupNo;
     private int athleteNo;
     private int order;
@@ -25,11 +25,11 @@ public class OrderInfo implements Serializable {
         this.ageGroup = ageGroup;
     }
 
-    public byte getPreOrFinal() {
+    public String getPreOrFinal() {
         return preOrFinal;
     }
 
-    public void setPreOrFinal(byte preOrFinal) {
+    public void setPreOrFinal(String preOrFinal) {
         this.preOrFinal = preOrFinal;
     }
 

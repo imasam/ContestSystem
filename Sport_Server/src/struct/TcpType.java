@@ -18,7 +18,8 @@ public enum TcpType implements Serializable{
     AthleteScore(13),		// 服务器返回的运动员成绩
     GetTeamScore(14),		// 根据代表队账号获取其团体成绩
     TeamScore(15),			// 服务器返回的团体成绩
-    GetOrderInfo(16);       // 根据项目编号和年龄组获取项目列表
+    GetOrderInfo(16),       // 根据项目编号和年龄组获取项目列表
+    SaveScore(17);          // 保存总裁判发来的打分分数
 
     private int index;
 
