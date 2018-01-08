@@ -3,7 +3,7 @@ import java.io.Serializable;
 
 public class Event implements Serializable {
     private int eventNo;
-    private byte sex;
+    private String sex;
     private  String eventName;
 
     public int getEventNo() {
@@ -14,11 +14,11 @@ public class Event implements Serializable {
         this.eventNo = eventNo;
     }
 
-    public byte getSex() {
+    public String getSex() {
         return sex;
     }
 
-    public void setSex(byte sex) {
+    public void setSex(String sex) {
         this.sex = sex;
     }
 

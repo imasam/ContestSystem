@@ -25,4 +25,5 @@ public class AgeGroup implements Serializable {
     public void setAgeMax(int ageMax) {
         this.ageMax = ageMax;
     }
+
 }
