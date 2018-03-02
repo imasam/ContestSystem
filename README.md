@@ -1,6 +1,5 @@
-# OOSE_Homework
+# OOSE
+course project
 面向对象软件工程&大型应用软件设计
 
-用例图、类图、顺序图等
-&
-代码
+
